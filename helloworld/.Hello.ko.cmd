@@ -1,0 +1,1 @@
+cmd_/home/prathyusha/devicedrivers/helloworld/Hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/prathyusha/devicedrivers/helloworld/Hello.ko /home/prathyusha/devicedrivers/helloworld/Hello.o /home/prathyusha/devicedrivers/helloworld/Hello.mod.o;  true
