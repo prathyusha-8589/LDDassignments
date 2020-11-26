@@ -1,0 +1,1 @@
+cmd_/home/prathyusha/devicedrivers/export/addfunction.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/prathyusha/devicedrivers/export/addfunction.ko /home/prathyusha/devicedrivers/export/addfunction.o /home/prathyusha/devicedrivers/export/addfunction.mod.o;  true
